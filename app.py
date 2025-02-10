@@ -233,7 +233,7 @@ def main():
 
     elif page == "Source Code":
         st.write("You can find the source code for this application on GitHub.")
-        st.markdown("[View Source Code](https://github.com/yourusername/yourrepository)", unsafe_allow_html=True)
+        st.markdown("[View Source Code](https://github.com/Ronak1231/cognifyz-Technologies_Task-3.git)", unsafe_allow_html=True)
 
     elif page == "Logout":
         st.session_state['logged_in'] = False
